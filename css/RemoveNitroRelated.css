@@ -1,0 +1,16 @@
+/* Removes the "Nitro" tab under the "Friends" tab */
+.channel-1Shao0.container-32HW5s[aria-posinset="2"],
+/* Removes the "Nitro" tab in the settings */
+.side-1lrxIh > .premiumTab-39eQzY.item-2GWPIy.themed-qqoYp3,
+/* Removes the gift next to GIFs, stickers and emoji buttons */
+.buttons-uaqb-5 > .button-ejjZWC.lookBlank-FgPMy6.colorBrand-2M3O3N.grow-2T4nbg[type="button"],
+/* Removes the "Get Nitro" buttons */
+button.shinyButton-2Q9MDB.button-ejjZWC.lookFilled-1H2Jvj.colorGreen-jIPCAS.sizeSmall-3R2P2p.grow-2T4nbg,
+/* Removes Nitro badge from profiles */
+.clickable-28QF7i ~ .clickable-28QF7i > img[src="/assets/24d05f3b46a110e538674edbac0db4cd.svg"],
+/* Removes Nitro Boost badge from profiles */
+.clickable-28QF7i ~ .clickable-28QF7i > img[src="/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg"],
+.clickable-28QF7i ~ .clickable-28QF7i > img[src="/assets/4a2618502278029ce88adeea179ed435.svg"],
+.clickable-28QF7i ~ .clickable-28QF7i > img[src="/assets/22f99ed6e34eaca48950254c70f8fe8d.svg"] {
+  display: none;
+}
